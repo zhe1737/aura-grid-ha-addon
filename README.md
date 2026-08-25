@@ -1,6 +1,6 @@
 # Aura Grid Home Assistant Add-on
 
-[中文](README.md)
+(README.md)
 
 This is an unofficial **Aura Grid LITE Add-on Repository** for **Home Assistant OS / Home Assistant Supervised**.
 
