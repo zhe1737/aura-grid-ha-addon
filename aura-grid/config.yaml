@@ -1,0 +1,23 @@
+name: "Aura Grid"
+version: "1.0.1"
+slug: "aura_grid"
+description: "Aura Grid Lite for Home Assistant OS"
+
+arch:
+  - amd64
+
+startup: application
+boot: auto
+init: false
+
+ports:
+  8500/tcp: 8125
+
+ports_description:
+  8500/tcp: "Aura Grid Web UI"
+
+map:
+  - addon_config:rw
+
+options: {}
+schema: {}
